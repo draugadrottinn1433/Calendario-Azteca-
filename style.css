@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    background-image: url('aztec-background.jpg'); /* Фон в стиле ацтеков */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #8B0000; /* Цвет, символизирующий кровь и силу */
+    font-family: 'Lucida Console', Courier, monospace; /* Шрифт, похожий на древние знаки */
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+input[type="date"] {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    width: calc(100% - 20px);
+    max-width: 400px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #8B4513; /* Цвет земли, важный для ацтеков */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #A0522D;
+}
+
+.result {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#result h2 {
+    color: #8B0000;
+}
+
+#result p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#result span {
+    font-weight: bold;
+}
