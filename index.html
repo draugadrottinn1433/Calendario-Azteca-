@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aztec Birth Sign Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Aztec Birth Sign Calculator</h1>
+        <p>Enter your birthdate to find your Aztec birth sign and number:</p>
+        
+        <form id="birthdateForm">
+            <label for="birthdate">Select your birthdate:</label>
+            <input type="date" id="birthdate" name="birthdate" required>
+            <button type="button" onclick="calculateAztecSign()">Calculate</button>
+        </form>
+        
+        <div id="result" class="result hidden">
+            <h2>Your Aztec Birth Sign</h2>
+            <p>Day Sign: <span id="aztecSign"></span></p>
+            <p>Number: <span id="aztecNumber"></span></p>
+            <p id="aztecDescription"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
