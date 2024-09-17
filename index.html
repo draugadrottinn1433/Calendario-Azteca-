@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ацтекский Калькулятор Числа Рождения</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ацтекский Калькулятор Числа Рождения</h1>
+        <p>Введите свою дату рождения, чтобы узнать ваш ацтекский знак и число:</p>
+        
+        <form id="birthdateForm">
+            <label for="birthdate">Выберите вашу дату рождения:</label>
+            <input type="date" id="birthdate" name="birthdate" required>
+            <button type="button" onclick="calculateAztecSign()">Рассчитать</button>
+        </form>
+        
+        <div id="result" class="result hidden">
+            <h2>Ваш Ацтекский Знак</h2>
+            <p>Знак дня: <span id="aztecSign"></span></p>
+            <p>Число: <span id="aztecNumber"></span></p>
+            <p id="aztecDescription"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
